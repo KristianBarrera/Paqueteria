@@ -11,7 +11,9 @@ describe('SearcresultsComponent', () => {
       declarations: [ SearcresultsComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(SearcresultsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
