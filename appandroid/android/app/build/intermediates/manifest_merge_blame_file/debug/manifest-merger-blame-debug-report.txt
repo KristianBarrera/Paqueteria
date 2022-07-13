@@ -1,0 +1,329 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.paquete"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+13-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:5:5-85
+13-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:5:22-82
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:6:5-81
+14-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:7:5-79
+15-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:8:5-79
+16-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:8:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Kris\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Kris\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Kris\.gradle\caches\transforms-3\fc6a87e250e06e8147e523a4fb7c89f3\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Kris\.gradle\caches\transforms-3\fc6a87e250e06e8147e523a4fb7c89f3\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Kris\.gradle\caches\transforms-3\fc6a87e250e06e8147e523a4fb7c89f3\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+22
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:25:5-68
+23-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:25:22-65
+24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+24-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:27:5-81
+24-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:27:22-78
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:28:5-77
+25-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:28:22-74
+26
+27    <application
+27-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:10:5-34:19
+28        android:name="com.paquete.MainApplication"
+28-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:11:7-38
+29        android:allowBackup="false"
+29-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:15:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.6.0] C:\Users\Kris\.gradle\caches\transforms-3\9f18c6b50baa776d71894ad120630276\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:13:7-41
+33        android:label="@string/app_name"
+33-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:12:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:14:7-52
+35        android:theme="@style/AppTheme"
+35-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:16:7-38
+36        android:usesCleartextTraffic="true" >
+36-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\debug\AndroidManifest.xml:8:9-44
+37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+37-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\debug\AndroidManifest.xml:11:9-86
+37-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\debug\AndroidManifest.xml:11:19-83
+38
+39        <meta-data
+39-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:18:7-20:63
+40            android:name="com.google.android.geo.API_KEY"
+40-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:19:6-51
+41            android:value="AIzaSyCBbpeSLhP8KUcMPWQoWgkEMM561jJ05mc" />
+41-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:20:6-61
+42
+43        <uses-library
+43-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:21:6-84
+44            android:name="org.apache.http.legacy"
+44-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:21:20-57
+45            android:required="false" />
+45-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:21:58-82
+46
+47        <activity
+47-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:23:7-33:18
+48            android:name="com.paquete.MainActivity"
+48-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:24:9-37
+49            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+49-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:26:9-86
+50            android:label="@string/app_name"
+50-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:25:9-41
+51            android:launchMode="singleTask"
+51-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:27:9-40
+52            android:windowSoftInputMode="adjustResize" >
+52-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:28:9-51
+53            <intent-filter>
+53-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:29:9-32:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:30:13-65
+54-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:30:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:31:13-73
+56-->C:\Users\Kris\Desktop\Proyecto Paqueteria\Proyecto Cambios 1\appAndroid\android\app\src\main\AndroidManifest.xml:31:23-70
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Kris\.gradle\caches\transforms-3\6f7d5ae95a0d4f6299073cc3913f31ad\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Kris\.gradle\caches\transforms-3\6f7d5ae95a0d4f6299073cc3913f31ad\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Kris\.gradle\caches\transforms-3\6f7d5ae95a0d4f6299073cc3913f31ad\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Kris\.gradle\caches\transforms-3\6f7d5ae95a0d4f6299073cc3913f31ad\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+63
+64        <provider
+64-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:31:9-37:35
+65            android:name="androidx.work.impl.WorkManagerInitializer"
+65-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:32:13-69
+66            android:authorities="com.paquete.workmanager-init"
+66-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:33:13-68
+67            android:directBootAware="false"
+67-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:34:13-44
+68            android:exported="false"
+68-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:35:13-37
+69            android:multiprocess="true" />
+69-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:36:13-40
+70
+71        <service
+71-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:39:9-44:35
+72            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+72-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:40:13-88
+73            android:directBootAware="false"
+73-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:41:13-44
+74            android:enabled="@bool/enable_system_alarm_service_default"
+74-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:42:13-72
+75            android:exported="false" />
+75-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:43:13-37
+76        <service
+76-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:45:9-51:35
+77            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+77-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:46:13-84
+78            android:directBootAware="false"
+78-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:47:13-44
+79            android:enabled="@bool/enable_system_job_service_default"
+79-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:48:13-70
+80            android:exported="true"
+80-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:49:13-36
+81            android:permission="android.permission.BIND_JOB_SERVICE" />
+81-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:50:13-69
+82        <service
+82-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:52:9-57:35
+83            android:name="androidx.work.impl.foreground.SystemForegroundService"
+83-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:53:13-81
+84            android:directBootAware="false"
+84-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:54:13-44
+85            android:enabled="@bool/enable_system_foreground_service_default"
+85-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:55:13-77
+86            android:exported="false" />
+86-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:56:13-37
+87
+88        <receiver
+88-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:59:9-64:35
+89            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+89-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:60:13-88
+90            android:directBootAware="false"
+90-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:61:13-44
+91            android:enabled="true"
+91-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:62:13-35
+92            android:exported="false" />
+92-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:63:13-37
+93        <receiver
+93-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:65:9-75:20
+94            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+94-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:66:13-106
+95            android:directBootAware="false"
+95-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:67:13-44
+96            android:enabled="false"
+96-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:68:13-36
+97            android:exported="false" >
+97-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:69:13-37
+98            <intent-filter>
+98-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:71:13-74:29
+99                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+99-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:72:17-87
+99-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:72:25-84
+100                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+100-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:73:17-90
+100-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:73:25-87
+101            </intent-filter>
+102        </receiver>
+103        <receiver
+103-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:76:9-86:20
+104            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+104-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:77:13-104
+105            android:directBootAware="false"
+105-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:78:13-44
+106            android:enabled="false"
+106-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:79:13-36
+107            android:exported="false" >
+107-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:80:13-37
+108            <intent-filter>
+108-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:82:13-85:29
+109                <action android:name="android.intent.action.BATTERY_OKAY" />
+109-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:83:17-77
+109-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:83:25-74
+110                <action android:name="android.intent.action.BATTERY_LOW" />
+110-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:84:17-76
+110-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:84:25-73
+111            </intent-filter>
+112        </receiver>
+113        <receiver
+113-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:87:9-97:20
+114            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+114-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:88:13-104
+115            android:directBootAware="false"
+115-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:89:13-44
+116            android:enabled="false"
+116-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:90:13-36
+117            android:exported="false" >
+117-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:91:13-37
+118            <intent-filter>
+118-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:93:13-96:29
+119                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+119-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:94:17-83
+119-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:94:25-80
+120                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+120-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:95:17-82
+120-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:95:25-79
+121            </intent-filter>
+122        </receiver>
+123        <receiver
+123-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:98:9-107:20
+124            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+124-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:99:13-103
+125            android:directBootAware="false"
+125-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:100:13-44
+126            android:enabled="false"
+126-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:101:13-36
+127            android:exported="false" >
+127-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:102:13-37
+128            <intent-filter>
+128-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:104:13-106:29
+129                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+129-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:105:17-79
+129-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:105:25-76
+130            </intent-filter>
+131        </receiver>
+132        <receiver
+132-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:108:9-119:20
+133            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+133-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:109:13-88
+134            android:directBootAware="false"
+134-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:110:13-44
+135            android:enabled="false"
+135-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:111:13-36
+136            android:exported="false" >
+136-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:112:13-37
+137            <intent-filter>
+137-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:114:13-118:29
+138                <action android:name="android.intent.action.BOOT_COMPLETED" />
+138-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:115:17-79
+138-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:115:25-76
+139                <action android:name="android.intent.action.TIME_SET" />
+139-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:116:17-73
+139-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:116:25-70
+140                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+140-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:117:17-81
+140-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:117:25-78
+141            </intent-filter>
+142        </receiver>
+143        <receiver
+143-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:120:9-129:20
+144            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+144-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:121:13-99
+145            android:directBootAware="false"
+145-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:122:13-44
+146            android:enabled="@bool/enable_system_alarm_service_default"
+146-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:123:13-72
+147            android:exported="false" >
+147-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:124:13-37
+148            <intent-filter>
+148-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:126:13-128:29
+149                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+149-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:127:17-98
+149-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:127:25-95
+150            </intent-filter>
+151        </receiver>
+152        <receiver
+152-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:130:9-140:20
+153            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+153-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:131:13-78
+154            android:directBootAware="false"
+154-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:132:13-44
+155            android:enabled="true"
+155-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:133:13-35
+156            android:exported="true"
+156-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:134:13-36
+157            android:permission="android.permission.DUMP" >
+157-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:135:13-57
+158            <intent-filter>
+158-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:137:13-139:29
+159                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+159-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:138:17-88
+159-->[androidx.work:work-runtime:2.5.0] C:\Users\Kris\.gradle\caches\transforms-3\826d41afde13e7781f053f5d00b96a8d\transformed\work-runtime-2.5.0\AndroidManifest.xml:138:25-85
+160            </intent-filter>
+161        </receiver>
+162
+163        <service
+163-->[androidx.room:room-runtime:2.2.5] C:\Users\Kris\.gradle\caches\transforms-3\d54ddd51e1eea449d952c04173af7c18\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+164            android:name="androidx.room.MultiInstanceInvalidationService"
+164-->[androidx.room:room-runtime:2.2.5] C:\Users\Kris\.gradle\caches\transforms-3\d54ddd51e1eea449d952c04173af7c18\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+165            android:directBootAware="true"
+165-->[androidx.room:room-runtime:2.2.5] C:\Users\Kris\.gradle\caches\transforms-3\d54ddd51e1eea449d952c04173af7c18\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+166            android:exported="false" />
+166-->[androidx.room:room-runtime:2.2.5] C:\Users\Kris\.gradle\caches\transforms-3\d54ddd51e1eea449d952c04173af7c18\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+167
+168        <meta-data
+168-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Kris\.gradle\caches\transforms-3\fdf872903e604c9dfd26aa5f6a064a42\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
+169            android:name="com.google.android.gms.version"
+169-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Kris\.gradle\caches\transforms-3\fdf872903e604c9dfd26aa5f6a064a42\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:9:13-58
+170            android:value="@integer/google_play_services_version" />
+170-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Kris\.gradle\caches\transforms-3\fdf872903e604c9dfd26aa5f6a064a42\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:10:13-66
+171    </application>
+172
+173</manifest>
